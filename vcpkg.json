@@ -1,0 +1,21 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
+  "name": "prometheus-integrate",
+  "version": "0.0.1",
+  "description": "Validated Gaussian fixed and adaptive quadrature in one and two dimensions (C++23 port)",
+  "homepage": "https://github.com/PrometheusLabs/PrometheusIntegrate",
+  "license": "MIT",
+  "builtin-baseline": "e1ff419d28c7f0a94abaf0a848fe0aeeb69b2de3",
+  "dependencies": [
+    "armadillo"
+  ],
+  "features": {
+    "tests": {
+      "description": "Build the GoogleTest suite",
+      "dependencies": [
+        "gtest",
+        "nlohmann-json"
+      ]
+    }
+  }
+}
